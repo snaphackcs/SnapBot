@@ -49,6 +49,8 @@ SnapBot is a WeChat based on NoneBot for the Snap Hack WeChat Group.
 希望藉此完善**个人信息库**的展示以及变动。
 
 
+## Easter Egg (TODO)
+
 
 ## Documentation
 
