@@ -1,11 +1,54 @@
-# wechat
+# SnapBot
 
-## How to start
+SnapBot is a WeChat based on NoneBot for the Snap Hack WeChat Group. 
 
-1. generate project using `nb create` .
-2. create your plugin using `nb plugin create` .
-3. writing your plugins under `wechat/plugins` folder.
-4. run your bot using `nb run --reload` .
+
+
+## Functions
+
+### Sign (TODO)
+
+签到获得算力点，连续签到以获得更多算力点。~~这种系统到处都是 不难理解吧~~
+
+希望藉此初步建立**日期时间处理**以及**个人信息库**。
+
+
+### Time Table (TODO)
+
+收集课程信息并为每位群友建立课表。Bot支持返回现在课程内容以及剩余时间。
+
+预期难点：**调休**。需要搭建更完善的星期系统。
+
+后续考虑支持导出课表为.ics格式以供各app查阅。
+
+希望藉此完善**日期时间处理**以及**个人信息库**。
+
+
+### Fortune (TODO)
+
+伪随机生成群友运势，包括每日运势以及各时段运势。
+
+使用**时间日期处理**处理相关运势。
+
+使用**个人信息库**存储运势。
+
+希望藉此完善**正态分布随机**，为钓鱼做准备。
+
+
+
+### Fish (TODO)
+
+群友可钓鱼。抛竿后一段时间后，Bot会提醒有鱼咬钩，此时需要在时间窗口内发送消息提杆钓鱼。
+
+咬钩时间以及鱼的大小符合**正态分布随机**。时间窗口大小与鱼的种类有关。
+
+钓上鱼之后会保留在**个人数据库**中。可以卖出获得算力。
+
+可能会钓出稀有物品。征集群友想法。
+
+希望藉此完善**个人信息库**的展示以及变动。
+
+
 
 ## Documentation
 
