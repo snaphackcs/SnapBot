@@ -1,0 +1,17 @@
+wxid_example:
+  name: Snap Hack
+  pinyin: Sinaipu Haike
+  admin: 0
+  title:
+    -
+  computility: 0
+  sign_day: 0
+  last_sign: 2022-5-28
+  class: 0000
+  registered_lesson:
+    public A:
+    public B:
+    maths:
+    science:
+    humanism:
+
