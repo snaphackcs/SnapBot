@@ -8,7 +8,7 @@ create table
     `pinyin` varchar(255) not null,
     `admin` integer not null default 0,
     `status` integer default 1
-  )
+  );
 
 create table
   `log_user` (
@@ -16,14 +16,14 @@ create table
     `created_at` timestamp not null default CURRENT_TIMESTAMP,
     `user_id` integer not null,
     `operation` varchar(255)
-  )
+  );
 
 create table
   `title` (
     `user_id` integer not null,
     `title` varchar(10),
     `status` integer default 1
-  )
+  );
 
 create table 
   `sign` (
@@ -33,7 +33,7 @@ create table
     `sign_day` integer not null default 0,
     `compulitity` compulitity not null default 0,
     `comment` varchar(255) null
-  )
+  );
 
 create table
   `student` (
@@ -43,14 +43,14 @@ create table
     `grade` integer not null,
     `class` integer not null,
     `status` integer default 1
-  )
+  );
 
 create table
   `register` (
     `student_id` integer not null,
     `lesson_id` integer not null,
     `status` integer not null default 1
-  )
+  );
 
 create table
   `lesson` (
@@ -60,7 +60,7 @@ create table
     `lesson_type` varchar(25) not null,
     `lesson_name` varchar(25) not null,
     `status` integer not null default 1
-  )
+  );
 
 create table
   `lesson_table` (
@@ -70,4 +70,4 @@ create table
     `class` integer not null,
     `table` varchar(255) not null,
     `status` integer not null default 1
-  )
+  );

@@ -5,3 +5,6 @@
 /comwechatbot
 /data/*.db
 .idea/
+
+# exclude
+!/data/test.db
